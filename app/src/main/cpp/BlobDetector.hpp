@@ -1,6 +1,5 @@
 //
-//  BlobDetectors.hpp
-//  OpenCVSample_iOS
+//  BlobDetector.hpp
 //
 //  Created by Luu Tran on 06/09/2022.
 //  Copyright © 2022 test. All rights reserved.
@@ -12,7 +11,10 @@
 #include <stdio.h>
 //#include <thread>
 #include <shared_mutex>
+#include <opencv2/core.hpp>
 #include <opencv2/opencv.hpp>
+#include <opencv2/core.hpp>
+#include <opencv2/imgproc.hpp>
 
 using namespace cv;
 using namespace std;
@@ -20,21 +22,21 @@ using namespace std;
 class BlobDetector
 {
 private:
-  cv::Scalar lowerBound_;
-  cv::Scalar upperBound_;
-  cv::Scalar colorRadius_;
+    cv::Scalar lowerBound_;
+    cv::Scalar upperBound_;
+    cv::Scalar colorRadius_;
 
-  cv::Mat mask_;
-  cv::Mat hsvMat_;
-  cv::Mat hierarchy_;
-  cv::Mat pyrDownMat_;
-  cv::Mat dilatedMask_;
-  std::vector<std::vector<cv::Point>> contours_;
+    cv::Mat mask_;
+    cv::Mat hsvMat_;
+    cv::Mat hierarchy_;
+    cv::Mat pyrDownMat_;
+    cv::Mat dilatedMask_;
+    std::vector<std::vector<cv::Point>> contours_;
 
-  float minContourArea_;
-  bool enabledDraw_ = true;
-  std::vector<cv::Point> blob_;
-  mutable std::shared_mutex mutex_;
+    float minContourArea_;
+    bool enabledDraw_ = false;
+    std::vector<std::tuple<cv::Point, int>> blob_;
+    mutable std::shared_mutex mutex_;
 
 protected:
     BlobDetector(/* args */);
@@ -44,18 +46,25 @@ public:
     void operator=(const BlobDetector &) = delete;
     static BlobDetector *Instance();
 
-    void setColorRadius(cv::Scalar radius);
     void setEnableDraw(bool enabled);
     void setHsvColor(cv::Scalar hsv);
     void setMinContourArea(float area);
+    void setColorRadius(cv::Scalar radius);
+
+    void setHsvLowerColor(cv::Scalar lower);
+    void setHsvUpperColor(cv::Scalar upper);
 
     void process(const cv::Mat &rgpbaImage);
 
     std::vector<std::vector<cv::Point>> getContours();
 
-    std::tuple<cv::Point, bool> isExistsBlobInBlobList(cv::Point p);
+    std::vector<std::tuple<cv::Point, int>> getBlobListDetected();
+    std::tuple<cv::Point, int, bool> isExistsBlobInBlobList(cv::Point p);
+
+    cv::Mat takePicture(cv::Mat &mat);
 
 private:
+    void addBLob(cv::Point p, int radius);
     bool isInside(cv::Point p1, cv::Point p2, int radius);
 };
 

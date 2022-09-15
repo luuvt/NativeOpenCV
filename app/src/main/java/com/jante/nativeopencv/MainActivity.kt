@@ -31,7 +31,7 @@ class MainActivity : AppCompatActivity(), CameraBridgeViewBase.CvCameraViewListe
                     mOpenCvCameraView!!.enableView()
 //                    mOpenCvCameraView!!.setOnTouchListener(this@MainActivity)
 
-                    setHsvColorFromJNI(80.0, 100.0, 100.0)
+                    setHsvColorFromJNI(220.0, 120.0, 110.0)
                     setMinContourAreaFromJNI(0.4)
                 }
                 else -> {
@@ -113,7 +113,6 @@ class MainActivity : AppCompatActivity(), CameraBridgeViewBase.CvCameraViewListe
         val mat = frame.rgba()
 
         // native call to process current camera frame
-        // adaptiveThresholdFromJNI(mat.nativeObjAddr)
         detectColorFromJNI(mat.nativeObjAddr)
         val arr = getListBlobFromJNI()
         Log.d(TAG,"data len: " + arr.size)
