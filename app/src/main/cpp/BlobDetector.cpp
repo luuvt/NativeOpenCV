@@ -28,8 +28,6 @@ BlobDetector::BlobDetector(/* args */)
     upperBound_ = cv::Scalar(0, 0, 0);
     colorRadius_ = cv::Scalar(20, 50, 50, 0);
     minContourArea_ = 0.4;
-    // set default setHsvColor
-    setHsvColor(cv::Scalar(220, 120, 110));
 }
 
 BlobDetector *BlobDetector::Instance()

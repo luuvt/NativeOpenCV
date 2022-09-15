@@ -11,13 +11,6 @@ using namespace std;
 using namespace cv;
 
 extern "C" {
-JNIEXPORT jstring JNICALL
-Java_com_jante_nativeopencv_MainActivity_stringFromJNI(
-        JNIEnv* env,
-        jobject /* this */) {
-    std::string hello = "Hello from C++";
-    return env->NewStringUTF(hello.c_str());
-}
 
 JNIEXPORT void JNICALL
 Java_com_jante_nativeopencv_MainActivity_setHsvColorFromJNI(
@@ -82,25 +75,5 @@ Java_com_jante_nativeopencv_MainActivity_detectColorFromJNI(
     Mat &rgpbaImage = *(Mat *) matAddr;
     BlobDetector::Instance()->process(rgpbaImage);
 }
-
-JNIEXPORT void JNICALL
-Java_com_jante_nativeopencv_MainActivity_adaptiveThresholdFromJNI(
-        JNIEnv *env,
-       jobject instance,
-       jlong matAddr) {
-
-    // get Mat from raw address
-    Mat &mat = *(Mat *) matAddr;
-
-    clock_t begin = clock();
-
-    cv::adaptiveThreshold(mat, mat, 255, ADAPTIVE_THRESH_MEAN_C, THRESH_BINARY_INV, 21, 5);
-
-    // log computation time to Android Logcat
-    double totalTime = double(clock() - begin) / CLOCKS_PER_SEC;
-    __android_log_print(ANDROID_LOG_INFO, TAG, "adaptiveThreshold computation time = %f seconds\n",
-                        totalTime);
-}
-
 
 }

@@ -124,7 +124,6 @@ class MainActivity : AppCompatActivity(), CameraBridgeViewBase.CvCameraViewListe
      * A native method that is implemented by the 'nativeopencv' native library,
      * which is packaged with this application.
      */
-    private external fun adaptiveThresholdFromJNI(matAddr: Long)
     private  external fun setHsvColorFromJNI(v0: Double, v1: Double, v2: Double)
     private external fun setMinContourAreaFromJNI(minArea: Double)
     private external fun getListBlobFromJNI(): FloatArray
