@@ -1,0 +1,27 @@
+{
+  "buildFiles": [
+    "/Users/luutran/Documents/luutran/working/dfo-global/test_opencv/NativeOpenCV/opencv/libcxx_helper/CMakeLists.txt"
+  ],
+  "cleanCommandsComponents": [
+    [
+      "/Users/luutran/Library/Android/sdk/cmake/3.18.1/bin/ninja",
+      "-C",
+      "/Users/luutran/Documents/luutran/working/dfo-global/test_opencv/NativeOpenCV/opencv/.cxx/Debug/6k1v414w/x86",
+      "clean"
+    ]
+  ],
+  "buildTargetsCommandComponents": [
+    "/Users/luutran/Library/Android/sdk/cmake/3.18.1/bin/ninja",
+    "-C",
+    "/Users/luutran/Documents/luutran/working/dfo-global/test_opencv/NativeOpenCV/opencv/.cxx/Debug/6k1v414w/x86",
+    "{LIST_OF_TARGETS_TO_BUILD}"
+  ],
+  "libraries": {
+    "opencv_jni_shared::@6890427a1f51a3e7e1df": {
+      "artifactName": "opencv_jni_shared",
+      "abi": "x86",
+      "output": "/Users/luutran/Documents/luutran/working/dfo-global/test_opencv/NativeOpenCV/opencv/.cxx/Debug/6k1v414w/x86/libopencv_jni_shared.a",
+      "runtimeFiles": []
+    }
+  }
+}

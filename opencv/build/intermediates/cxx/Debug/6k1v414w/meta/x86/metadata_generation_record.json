@@ -1,0 +1,170 @@
+[
+  {
+    "level_": 0,
+    "message_": "Start JSON generation. Platform version: 16 min SDK version: x86",
+    "file_": "/Users/luutran/Documents/luutran/working/dfo-global/test_opencv/NativeOpenCV/opencv/libcxx_helper/CMakeLists.txt",
+    "tag_": "debug|x86",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {},
+      "fieldsDescending": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": 500923163
+  },
+  {
+    "level_": 0,
+    "message_": "rebuilding JSON /Users/luutran/Documents/luutran/working/dfo-global/test_opencv/NativeOpenCV/opencv/.cxx/Debug/6k1v414w/x86/android_gradle_build.json due to:",
+    "file_": "/Users/luutran/Documents/luutran/working/dfo-global/test_opencv/NativeOpenCV/opencv/libcxx_helper/CMakeLists.txt",
+    "tag_": "debug|x86",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {},
+      "fieldsDescending": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": 660477772
+  },
+  {
+    "level_": 0,
+    "message_": "- expected json /Users/luutran/Documents/luutran/working/dfo-global/test_opencv/NativeOpenCV/opencv/.cxx/Debug/6k1v414w/x86/android_gradle_build.json file is not present, will remove stale json folder",
+    "file_": "/Users/luutran/Documents/luutran/working/dfo-global/test_opencv/NativeOpenCV/opencv/libcxx_helper/CMakeLists.txt",
+    "tag_": "debug|x86",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {},
+      "fieldsDescending": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": -667759762
+  },
+  {
+    "level_": 0,
+    "message_": "- missing previous command file /Users/luutran/Documents/luutran/working/dfo-global/test_opencv/NativeOpenCV/opencv/.cxx/Debug/6k1v414w/x86/metadata_generation_command.txt, will remove stale json folder",
+    "file_": "/Users/luutran/Documents/luutran/working/dfo-global/test_opencv/NativeOpenCV/opencv/libcxx_helper/CMakeLists.txt",
+    "tag_": "debug|x86",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {},
+      "fieldsDescending": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": -909903476
+  },
+  {
+    "level_": 0,
+    "message_": "- command changed from previous, will remove stale json folder",
+    "file_": "/Users/luutran/Documents/luutran/working/dfo-global/test_opencv/NativeOpenCV/opencv/libcxx_helper/CMakeLists.txt",
+    "tag_": "debug|x86",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {},
+      "fieldsDescending": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": -1156951787
+  },
+  {
+    "level_": 0,
+    "message_": "created folder \u0027/Users/luutran/Documents/luutran/working/dfo-global/test_opencv/NativeOpenCV/opencv/.cxx/Debug/6k1v414w/x86\u0027",
+    "file_": "/Users/luutran/Documents/luutran/working/dfo-global/test_opencv/NativeOpenCV/opencv/libcxx_helper/CMakeLists.txt",
+    "tag_": "debug|x86",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {},
+      "fieldsDescending": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": 2065878035
+  },
+  {
+    "level_": 0,
+    "message_": "executing cmake Executable : /Users/luutran/Library/Android/sdk/cmake/3.18.1/bin/cmake\narguments : \n-H/Users/luutran/Documents/luutran/working/dfo-global/test_opencv/NativeOpenCV/opencv/libcxx_helper\n-DCMAKE_SYSTEM_NAME\u003dAndroid\n-DCMAKE_EXPORT_COMPILE_COMMANDS\u003dON\n-DCMAKE_SYSTEM_VERSION\u003d16\n-DANDROID_PLATFORM\u003dandroid-16\n-DANDROID_ABI\u003dx86\n-DCMAKE_ANDROID_ARCH_ABI\u003dx86\n-DANDROID_NDK\u003d/Users/luutran/Library/Android/sdk/ndk/21.4.7075529\n-DCMAKE_ANDROID_NDK\u003d/Users/luutran/Library/Android/sdk/ndk/21.4.7075529\n-DCMAKE_TOOLCHAIN_FILE\u003d/Users/luutran/Library/Android/sdk/ndk/21.4.7075529/build/cmake/android.toolchain.cmake\n-DCMAKE_MAKE_PROGRAM\u003d/Users/luutran/Library/Android/sdk/cmake/3.18.1/bin/ninja\n-DCMAKE_LIBRARY_OUTPUT_DIRECTORY\u003d/Users/luutran/Documents/luutran/working/dfo-global/test_opencv/NativeOpenCV/opencv/build/intermediates/cxx/Debug/6k1v414w/obj/x86\n-DCMAKE_RUNTIME_OUTPUT_DIRECTORY\u003d/Users/luutran/Documents/luutran/working/dfo-global/test_opencv/NativeOpenCV/opencv/build/intermediates/cxx/Debug/6k1v414w/obj/x86\n-DCMAKE_BUILD_TYPE\u003dDebug\n-B/Users/luutran/Documents/luutran/working/dfo-global/test_opencv/NativeOpenCV/opencv/.cxx/Debug/6k1v414w/x86\n-GNinja\n-DANDROID_STL\u003dc++_shared\njvmArgs : \n\n",
+    "file_": "/Users/luutran/Documents/luutran/working/dfo-global/test_opencv/NativeOpenCV/opencv/libcxx_helper/CMakeLists.txt",
+    "tag_": "debug|x86",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {},
+      "fieldsDescending": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": 1360375381
+  },
+  {
+    "level_": 0,
+    "message_": "Executable : /Users/luutran/Library/Android/sdk/cmake/3.18.1/bin/cmake\narguments : \n-H/Users/luutran/Documents/luutran/working/dfo-global/test_opencv/NativeOpenCV/opencv/libcxx_helper\n-DCMAKE_SYSTEM_NAME\u003dAndroid\n-DCMAKE_EXPORT_COMPILE_COMMANDS\u003dON\n-DCMAKE_SYSTEM_VERSION\u003d16\n-DANDROID_PLATFORM\u003dandroid-16\n-DANDROID_ABI\u003dx86\n-DCMAKE_ANDROID_ARCH_ABI\u003dx86\n-DANDROID_NDK\u003d/Users/luutran/Library/Android/sdk/ndk/21.4.7075529\n-DCMAKE_ANDROID_NDK\u003d/Users/luutran/Library/Android/sdk/ndk/21.4.7075529\n-DCMAKE_TOOLCHAIN_FILE\u003d/Users/luutran/Library/Android/sdk/ndk/21.4.7075529/build/cmake/android.toolchain.cmake\n-DCMAKE_MAKE_PROGRAM\u003d/Users/luutran/Library/Android/sdk/cmake/3.18.1/bin/ninja\n-DCMAKE_LIBRARY_OUTPUT_DIRECTORY\u003d/Users/luutran/Documents/luutran/working/dfo-global/test_opencv/NativeOpenCV/opencv/build/intermediates/cxx/Debug/6k1v414w/obj/x86\n-DCMAKE_RUNTIME_OUTPUT_DIRECTORY\u003d/Users/luutran/Documents/luutran/working/dfo-global/test_opencv/NativeOpenCV/opencv/build/intermediates/cxx/Debug/6k1v414w/obj/x86\n-DCMAKE_BUILD_TYPE\u003dDebug\n-B/Users/luutran/Documents/luutran/working/dfo-global/test_opencv/NativeOpenCV/opencv/.cxx/Debug/6k1v414w/x86\n-GNinja\n-DANDROID_STL\u003dc++_shared\njvmArgs : \n\n",
+    "file_": "/Users/luutran/Documents/luutran/working/dfo-global/test_opencv/NativeOpenCV/opencv/libcxx_helper/CMakeLists.txt",
+    "tag_": "debug|x86",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {},
+      "fieldsDescending": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": 644497556
+  },
+  {
+    "level_": 0,
+    "message_": "Exiting generation of /Users/luutran/Documents/luutran/working/dfo-global/test_opencv/NativeOpenCV/opencv/.cxx/Debug/6k1v414w/x86/compile_commands.json.bin normally",
+    "file_": "/Users/luutran/Documents/luutran/working/dfo-global/test_opencv/NativeOpenCV/opencv/libcxx_helper/CMakeLists.txt",
+    "tag_": "debug|x86",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {},
+      "fieldsDescending": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": 1333862680
+  },
+  {
+    "level_": 0,
+    "message_": "done executing cmake",
+    "file_": "/Users/luutran/Documents/luutran/working/dfo-global/test_opencv/NativeOpenCV/opencv/libcxx_helper/CMakeLists.txt",
+    "tag_": "debug|x86",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {},
+      "fieldsDescending": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": -1469298038
+  },
+  {
+    "level_": 0,
+    "message_": "write command file /Users/luutran/Documents/luutran/working/dfo-global/test_opencv/NativeOpenCV/opencv/.cxx/Debug/6k1v414w/x86/metadata_generation_command.txt",
+    "file_": "/Users/luutran/Documents/luutran/working/dfo-global/test_opencv/NativeOpenCV/opencv/libcxx_helper/CMakeLists.txt",
+    "tag_": "debug|x86",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {},
+      "fieldsDescending": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": 1617943744
+  },
+  {
+    "level_": 0,
+    "message_": "JSON generation completed without problems",
+    "file_": "/Users/luutran/Documents/luutran/working/dfo-global/test_opencv/NativeOpenCV/opencv/libcxx_helper/CMakeLists.txt",
+    "tag_": "debug|x86",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {},
+      "fieldsDescending": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": 468775046
+  }
+]
